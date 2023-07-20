@@ -22,9 +22,8 @@ for i in range(1,num+1):
     if i%2 == 0:
         even_sum+=i
     else:
-        odd_sum+=i
+        odd_sum+=i 
 
-print("************")        
 print("The even number sum between the number from 0 to {0} is: {1}".format(i,even_sum))
 print("The even number sum between the number from 0 to {0} is: {1}".format(i,odd_sum))
         
